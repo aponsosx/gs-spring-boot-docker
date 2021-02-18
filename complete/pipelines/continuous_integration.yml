@@ -3,13 +3,13 @@ resources:
     type: GitRepo
     configuration:
       gitProvider: my_github
-      path: batelt/gs-spring-boot-docker
+      path: aponsosx/gs-spring-boot-docker
       branches:
         include: master
   - name: myBuildInfo
     type: BuildInfo
     configuration:
-      sourceArtifactory: art
+      sourceArtifactory: artifactory
       buildName: SpringBootContained
       buildNumber: 1
 pipelines:
